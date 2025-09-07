@@ -3,3 +3,9 @@ First run this command - huggingface-cli delete-cache - for this huggingface_hub
 This command will display a list of all downloaded models in the cache. 
 You can select the specific model(s) you wish to delete by pressing the spacebar next to the 
 model name and then pressing Enter to confirm the deletion.
+
+To list ollama Models - ollama list
+To delete ollama models - ollama rm <model_name>
+
+To list local Huggingface models - hf cache scan
+To delete local Huggingface models - hf cache delete
