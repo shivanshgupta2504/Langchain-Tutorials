@@ -1,0 +1,5 @@
+To delete Huggingface models
+First run this command - huggingface-cli delete-cache - for this huggingface_hub[cli] needs to be installed - pip install -U "huggingface_hub[cli]"
+This command will display a list of all downloaded models in the cache. 
+You can select the specific model(s) you wish to delete by pressing the spacebar next to the 
+model name and then pressing Enter to confirm the deletion.
