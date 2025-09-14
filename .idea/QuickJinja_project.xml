@@ -3,7 +3,7 @@
   <component name="de.achimonline.quickjinja.settings.QuickJinjaProjectSettingsState">
     <option name="settings">
       <QuickJinjaProjectSettings>
-        <option name="templateFilePath" value="$PROJECT_DIR$/Models/ChatModels/6_chatmodel_ollama_local.py" />
+        <option name="templateFilePath" value="$PROJECT_DIR$/test.ipynb" />
       </QuickJinjaProjectSettings>
     </option>
   </component>
