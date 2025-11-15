@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length",
+        "recipe_name",
+        "target_audience"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nPlease summarize the recipe titled \"{recipe_name}\" with the following specifications:\nTarget Audience: {target_audience}\nExplanation Length: {length}\nDetails to include:\n    - Include relevant flavor profile if present.\n    - Include what ingredients being used.\n    - Include necessary cooking skills. \nIf certain information is not available in the paper, respond with: \"Insufficient information available\" instead of guessing.\nEnsure the summary is clear, accurate, and aligned with the provided style and length.\nGive the response in markdown format.\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}

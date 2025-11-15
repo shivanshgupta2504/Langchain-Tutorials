@@ -31,3 +31,5 @@ langchain-ollama
 
 # UI Integration
 streamlit
+
+jupyter
