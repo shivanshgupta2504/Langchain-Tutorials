@@ -34,3 +34,4 @@ streamlit
 
 jupyter
 pydantic
+grandalf
