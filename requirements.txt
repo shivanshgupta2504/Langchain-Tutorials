@@ -2,6 +2,8 @@
 langchain
 langchain-core
 langchain_community
+langchain-experimental
+langchain-classic
 
 # OpenAI Integration
 langchain-openai
@@ -20,6 +22,9 @@ transformers
 huggingface-hub
 sentence-transformers
 
+# Youtube API
+youtube-transcript-api
+
 # Environment Variable Management
 python-dotenv
 
@@ -33,7 +38,17 @@ langchain-ollama
 # UI Integration
 streamlit
 
+# Vector Store
+chromadb
+langchain-chroma
+faiss-cpu
+
+# Others
 jupyter
 pydantic
 grandalf
 pypdf
+tiktoken
+wikipedia
+duckduckgo-search
+ddgs
